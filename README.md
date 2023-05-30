@@ -1,2 +1,2 @@
 # TuneIn
- Aplicacion reoroductor de musica
+ Aplicacion reproductor de musica
