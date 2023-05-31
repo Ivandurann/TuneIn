@@ -18,7 +18,7 @@ public class ShareFragment extends Fragment {
         ShareFragmentViewModel homeViewModel =
                 new ViewModelProvider(this).get(ShareFragmentViewModel.class);
 
-        View view = inflater.inflate(R.layout.frag_view_favorite, container, false);
+        View view = inflater.inflate(R.layout.frag_view_share, container, false);
 
         return view;
     }
