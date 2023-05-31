@@ -98,6 +98,13 @@ public class MusicPlayerActivity extends AppCompatActivity {
             mediaPlayer.start();
             seekBar.setProgress(0);
             seekBar.setMax(mediaPlayer.getDuration());
+            
+            mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                @Override
+                public void onCompletion(MediaPlayer mp) {
+                    playNextSong();
+                }
+            });
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -121,10 +128,14 @@ public class MusicPlayerActivity extends AppCompatActivity {
     }
 
     private void pausePlay(){
-        if(mediaPlayer.isPlaying())
+        if(mediaPlayer.isPlaying()) {
             mediaPlayer.pause();
-        else
+            pausePlay.setImageResource(R.drawable.playicon);
+        }
+        else {
             mediaPlayer.start();
+            pausePlay.setImageResource(R.drawable.pauseicon);
+        }
     }
 
     public static String convertToMMSS(String duration){
