@@ -2,16 +2,15 @@ package com.example.aut2_03aplicacinfinalandroid;
 
 import android.os.Bundle;
 
-
-import com.example.aut2_03aplicacinfinalandroid.databinding.ActivityMainBinding;
-import com.google.android.material.navigation.NavigationView;
-
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.aut2_03aplicacinfinalandroid.databinding.ActivityMainBinding;
+import com.google.android.material.navigation.NavigationView;
 
 
 public class MainActivity extends AppCompatActivity {

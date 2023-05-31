@@ -4,9 +4,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
 
-    <!-- Nombres fragmentos   -->
+    <!-- Fragment names   -->
     <string name="home_frag_name">Home</string>
     <string name="favorite_frag_name">Favorite</string>
     <string name="lists_frag_name">Lists</string>
     <string name="settings_frag_name">Settings</string>
+    <string name="share_frag_name">Share</string>
+    <string name="about_frag_name">About</string>
 </resources>

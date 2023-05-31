@@ -29,4 +29,16 @@
         android:label="@string/settings_frag_name"
         tools:layout="@layout/frag_view_settings" />
 
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.aut2_03aplicacinfinalandroid.ui.shareCode.ShareFragment"
+        android:label="@string/share_frag_name"
+        tools:layout="@layout/frag_view_share" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.aut2_03aplicacinfinalandroid.ui.aboutCode.AboutFragment"
+        android:label="@string/about_frag_name"
+        tools:layout="@layout/frag_view_about" />
+
 </navigation>

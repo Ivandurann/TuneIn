@@ -28,7 +28,7 @@ public class MusicPlayerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_music_player_old);
+        setContentView(R.layout.activity_music_player);
 
         titleTv = findViewById(R.id.song_title);
         currentTimeTv = findViewById(R.id.current_time);
