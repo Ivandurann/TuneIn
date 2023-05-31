@@ -4,6 +4,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
 
+    <!-- User data -->
+    <string name="usernameString">Default User</string>
+    <string name="userEmailString">default@defaultmail.com</string>
+
+
     <!-- Fragment names   -->
     <string name="home_frag_name">Home</string>
     <string name="favorite_frag_name">Favorite</string>
