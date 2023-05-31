@@ -37,7 +37,7 @@ public class MusicPlayerActivity extends AppCompatActivity {
         pausePlay = findViewById(R.id.pause_play);
         nextBtn = findViewById(R.id.next);
         previousBtn = findViewById(R.id.previous);
-        musicIcon = findViewById(R.id.music_icon_big);
+        musicIcon = findViewById(R.id.reproducer_icon);
 
         songsList = (ArrayList<AudioModel>) getIntent().getSerializableExtra("LIST");
 
