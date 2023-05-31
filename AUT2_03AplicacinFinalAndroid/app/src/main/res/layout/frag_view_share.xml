@@ -6,4 +6,79 @@
     android:layout_height="match_parent"
     tools:context=".ui.shareCode.ShareFragment">
 
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/TwitterShareIcon"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:src="@drawable/twittericon" />
+
+            <TextView
+                android:id="@+id/twitterShareText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Twitter"
+                android:translationY="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/facebookShareIcon"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:src="@drawable/facebookicon" />
+
+            <TextView
+                android:id="@+id/facebookShareText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Facebook"
+                android:translationY="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/InstagramShareIcon"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:src="@drawable/instagramicon" />
+
+            <TextView
+                android:id="@+id/instagramShareText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Instagram"
+                android:translationY="20dp" />
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
